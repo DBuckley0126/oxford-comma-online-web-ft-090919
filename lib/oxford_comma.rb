@@ -6,7 +6,7 @@ new_array = ""
       new_array << element
 
     elsif array.length == 2
-        new_array << index == 0 ? "#{element} and " : element
+        new_array << index == 0 ? "#{element} and " : "element"
 
     elsif index < array.length - 1
       new_array << "#{element}, "
