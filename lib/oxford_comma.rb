@@ -6,6 +6,6 @@ new_array = nil
       new_array << "#{element},"
     else
       new_array << "and #{element}"
-    end  
+    end
   end
 end
