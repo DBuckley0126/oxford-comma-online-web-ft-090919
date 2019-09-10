@@ -1,6 +1,6 @@
 def oxford_comma(array)
 #{}"#{array.join(", ")}"
-new_array = nil
+new_array = "start"
   array.each_with_index.collect do |element, index|
     if index < array.length
       new_array << "#{element},"
