@@ -8,4 +8,5 @@ new_array = nil
       new_array << "and #{element}"
     end
   end
+new_array
 end
