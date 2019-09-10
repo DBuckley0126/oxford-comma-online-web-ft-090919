@@ -2,7 +2,7 @@ def oxford_comma(array)
 #{}"#{array.join(", ")}"
 new_array = ""
   array.each_with_index.collect do |element, index|
-    if index < array.length - 1 && array.length = 1
+    if index < array.length - 1 && array.length == 1
       new_array << element
     elsif index < array.length - 1
       new_array << "#{element}, "
