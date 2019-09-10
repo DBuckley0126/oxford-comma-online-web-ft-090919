@@ -8,7 +8,7 @@ new_array = ""
       new_array << "#{element}, "
     else
       new_array << "and #{element}"
-    end  
+    end
   end
 new_array
 end
