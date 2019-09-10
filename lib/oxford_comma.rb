@@ -14,9 +14,9 @@ new_array = ""
 
         else
           new_array << "and #{element}"
-        end  
-      end  
-  end    
-  
+        end
+      end
+  end
+
 new_array
 end
